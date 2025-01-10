@@ -1,0 +1,899 @@
+header{
+    margin: 0;
+    padding: 0;
+  
+   background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");  
+
+}
+html{
+  background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+}
+.heading{
+    border: solid rgb(21, 0, 157) 4px;
+    height: 120px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("heading2.png");
+    filter: drop-shadow(5px 5px 5px rgba(17, 43, 214, 0.959));
+    }
+
+
+
+    .info{
+      font-size: 21px;
+      margin-top: 20px;
+      margin-left: 20px;
+      height: 170px;
+  }
+
+
+
+.container {
+  position: relative;
+  width: 99vw; 
+  height: 200px; 
+  overflow: hidden; 
+}
+
+.snail {
+  position: absolute;
+  top: 10%; 
+  right: -200px; 
+  width: 80px; 
+  height: 80px;
+  animation: moveSnail 20s linear infinite; 
+}
+
+@keyframes moveSnail {
+  0% {
+    transform: translateX(10px); 
+  }
+  100% {
+    transform: translateX(-2000px); 
+  }
+}
+
+#heading01text{
+  background-color: red;
+  height: 260px;
+  width: 38%;
+  position: absolute;
+  top: 440px;
+  margin-left: 45px;
+ border-radius: 8px;
+ background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+
+}
+
+#heading01image{
+  
+  height: 260px;
+  width: 38%;
+  position: absolute;
+  top: 430px;
+  margin-left: 870px;
+ border-radius: 8px;
+ background-image: url("OIP.png");
+ background-size: cover;
+
+}
+
+#heading02img{
+  background-color: red;
+  height: 260px;
+  width: 38%;
+  position: absolute;
+  top: 840px;
+  margin-left: 45px;
+ border-radius: 8px;
+ background-image: url("honey1.png");
+
+}
+
+#heading02text{
+  background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+  height: 260px;
+  width: 38%;
+  position: absolute;
+  top: 760px;
+  margin-left: 870px;
+ border-radius: 8px;
+
+}
+
+
+
+    
+    
+    .heading4{
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 10px;
+        display: flex;
+       flex-direction: row;
+        background-color: aqua;
+        width: auto;
+        height: 300px;
+        justify-content: center;
+        background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+    }
+    .hading04text{
+        height: 260px;
+        width: 38%;
+        background-color: #9BEC00;
+        margin-top: 120px;
+        position: absolute;
+        top: 990px;
+        left: 45px;
+        background-color: rgb(255, 0, 191);
+        border-radius: 10px;
+        background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+
+    }
+    
+    .heading04img{
+        height: 260px;
+        width: 38%;
+        background-color: #9BEC00;
+        margin-top: 120px;
+        position: absolute;
+        top: 1040px;
+        left: 59%;
+        background-color: rgb(255, 0, 191);
+        border-radius: 10px;
+        background-image: url(wheelbug.png);
+    }
+
+    
+    
+    
+    .heading5{
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 10px;
+        display: flex;
+       flex-direction: row;
+        background-color: aqua;
+        width: auto;
+        height: 300px;
+        justify-content: center;
+        background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+    }
+    .hading05text{
+        height: 260px;
+        width: 38%;
+        background-color: #9BEC00;
+        margin-top: 120px;
+        position: absolute;
+        top: 1350px;
+        left: 45px;
+        background-color: black;
+        border-radius: 10px;
+        background-image: url("R.png");
+        background-size: cover;
+
+    }
+    
+    .heading05img{
+        height: 260px;
+        width: 38%;
+        background-color: #9BEC00;
+        margin-top: 120px;
+        position: absolute;
+        top: 1310px;
+        left: 59%;
+        background-color: black;
+        border-radius: 10px;
+        background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+    }
+
+
+    
+    .heading6{
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 10px;
+        display: flex;
+       flex-direction: row;
+        background-color: aqua;
+        width: auto;
+        height: 300px;
+        justify-content: center;
+        background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+    }
+    .hading06text{
+        height: 260px;
+        width: 38%;
+        background-color: #9BEC00;
+        margin-top: 120px;
+        position: absolute;
+        top: 1640px;
+        left: 45px;
+        background-color: rgb(243, 204, 7);
+        border-radius: 10px;
+        background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+
+    }
+    
+    .heading06img{
+        height: 260px;
+        width: 38%;
+        
+        margin-top: 120px;
+        position: absolute;
+        top: 1700px;
+        left: 59%;
+        background-color: rgb(243,204,7);
+        border-radius: 10px;
+        background-image: url("Leaf\ Beetles\ \(Chrysomelids\).png");
+    }
+
+
+    
+    .heading7{
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 10px;
+        display: flex;
+       flex-direction: row;
+        background-color: aqua;
+        width: auto;
+        height: 300px;
+        justify-content: center;
+        background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+    }
+    .hading07text{
+        height: 260px;
+        width: 38%;
+        background-image: url("Atlas.png");
+        background-size: cover;
+        margin-top: 120px;
+        position: absolute;
+        top: 2040px;
+        left: 45px;
+        background-color: rgb(27, 238, 73);
+        border-radius: 10px;
+
+    }
+    
+    .heading07img{
+        height: 260px;
+        width: 38%;
+        
+        margin-top: 120px;
+        position: absolute;
+        top: 1980px;
+        left: 59%;
+        background-color: rgb(27,238,73);
+        border-radius: 10px;
+        background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+    }
+
+
+    
+    .heading8{
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 10px;
+        display: flex;
+       flex-direction: row;
+        background-color: aqua;
+        width: auto;
+        height: 300px;
+        justify-content: center;
+        background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+    }
+    .hading08text{
+        height: 260px;
+        width: 38%;
+    
+        margin-top: 120px;
+        position: absolute;
+        top: 2340px;
+        left: 45px;
+        background-color: purple;
+        
+        border-radius: 10px;
+        background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+
+    }
+    
+    .heading08img{
+        height: 260px;
+        width: 38%;
+       background-image: url("TERmite.png");
+        margin-top: 120px;
+        position: absolute;
+        top: 2380px;
+        left: 59%;
+        background-color: purple;
+        border-radius: 10px;
+    }
+
+
+
+
+
+    
+    .heading9{
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 10px;
+        display: flex;
+       flex-direction: row;
+        background-color: aqua;
+        width: auto;
+        height: 300px;
+        justify-content: center;
+        background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+    }
+    .hading09text{
+        height: 260px;
+        width: 38%;
+
+        margin-top: 120px;
+        position: absolute;
+        top: 2740px;
+        left: 45px;
+        background-color: #ED3EF7;
+        border-radius: 10px;
+        background-image: url("Silverfish\ \(Lepisma\ saccharinum\).jpg");
+
+    }
+    
+    .heading09img{
+        height: 260px;
+        width: 38%;
+
+        margin-top: 120px;
+        position: absolute;
+        top: 2660px;
+        left: 59%;
+        background-color: #ED3EF7 ;
+                border-radius: 10px;
+                background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+    }
+
+
+    
+    .heading10{
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 10px;
+        display: flex;
+       flex-direction: row;
+        background-color: aqua;
+        width: auto;
+        height: 300px;
+        justify-content: center;
+        background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+    }
+    .hading10text{
+        height: 260px;
+        width: 38%;
+        background-color: #FFAF00;
+        margin-top: 120px;
+        position: absolute;
+        top: 3050px;
+        left: 45px;
+        border-radius: 10px;
+        background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+
+    }
+    
+    .heading10img{
+        height: 260px;
+        width: 38%;
+        margin-top: 120px;
+        position: absolute;
+        top: 3090px;
+        left: 59%;
+        background-color: #FFAF00 ;
+        border-radius: 10px;
+        background-image: url("Screenshot\ 2024-09-12\ 143757.png");
+        background-size: contain;
+    }
+
+
+
+    .heading11{
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 10px;
+        display: flex;
+       flex-direction: row;
+        background-color: aqua;
+        width: auto;
+        height: 300px;
+        justify-content: center;
+        background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+    }
+    .hading11text{
+        height: 260px;
+        width: 38%;
+        background-color: #7C00FE;
+        margin-top: 120px;
+        position: absolute;
+        top:3450px;
+        left: 45px;
+        border-radius: 10px;
+        background-image: url("tiger\ bettle.png");
+        background-size:cover;
+
+    }
+    
+    .heading11img{
+        height: 260px;
+        width: 38%;
+        margin-top: 120px;
+        position: absolute;
+        top:3370px;
+        left: 59%;
+        background-color: #7C00FE ;
+        background-image: url("spring-floral-border-background-green-with-leaf-watercolor-illustration.jpg");
+                border-radius: 10px;
+    }
+
+
+    .ladybug {
+        position: absolute;
+        top: 100px;
+        left: 50px;
+        font-size: 50px;
+        animation: fly 20s ease-in-out infinite;
+      }
+      
+      @keyframes fly {
+        0% {
+          transform: translate(250px,220px) rotate(0deg);
+        }
+        20% {
+          transform: translate(140px,960px) rotate(120deg); /* Moves up and to the right */
+        }
+        40% {
+          transform: translate(960px,800px) rotate(-720deg); /* Moves down and slightly to the right */
+        }
+        60% {
+          transform: translate(960px,600px) rotate(305deg); /* Moves higher up with rotation */
+        }
+        80% {
+          transform: translate(100px,950px) rotate(-302deg); /* Moves down again */
+        }
+        100% {
+          transform: translate(70px,630) rotate(0deg); /* Returns to the same height but further */
+        }
+      }
+    
+      .ladybug2{
+        position: absolute;
+        top: 100px;
+        left: 50px;
+        font-size: 50px;
+        animation: fly2 20s ease-in-out infinite;
+      }
+      
+      @keyframes fly2{
+        0% {
+          transform: translate(720px,790px) rotate(0deg);
+        }
+        20% {
+          transform: translate(240px,750px) rotate(20deg); /* Moves up and to the right */
+        }
+        40% {
+          transform: translate(90px,500px) rotate(-20deg); /* Moves down and slightly to the right */
+        }
+        60% {
+          transform: translate(260px,700px) rotate(30deg); /* Moves higher up with rotation */
+        }
+        80% {
+          transform: translate(308px,110px) rotate(-30deg); /* Moves down again */
+        }
+        100% {
+          transform: translate(390px, 870px) rotate(0deg); /* Returns to the same height but further */
+        }
+      }
+      
+    
+      
+      .ladybug3{
+        position: absolute;
+        top: 100px;
+        left: 50px;
+        font-size: 50px;
+        animation: fly3 20s ease-in-out infinite;
+      }
+      
+      @keyframes fly3{
+        0% {
+          transform: translate(720px,110px) rotate(0deg);
+        }
+        20% {
+          transform: translate(640px,820px) rotate(20deg); /* Moves up and to the right */
+        }
+        40% {
+          transform: translate(960px,500px) rotate(-20deg); /* Moves down and slightly to the right */
+        }
+        60% {
+          transform: translate(960px,703px) rotate(30deg); /* Moves higher up with rotation */
+        }
+        80% {
+          transform: translate(898px,620px) rotate(-30deg); /* Moves down again */
+        }
+        100% {
+          transform: translate(910px, 822px) rotate(0deg); /* Returns to the same height but further */
+        }
+      }
+
+      .container69 {
+        position: relative;
+        top: 764px;
+        width: auto; /* Full width of the viewport */
+        height: 120px; /* Full height of the viewport */
+        overflow: hidden; /* Ensures the image will not show beyond the container */
+        
+      }
+      
+      .snail {
+        position: absolute;
+        top: 0px; /* Vertically center the snail */
+        right: -200px; /* Start off the right side of the screen */
+        width: 80px; /* Adjust size of the image if necessary */
+        height: 80px;
+        animation: moveSnail 15s linear infinite; /* Animate the movement over 10 seconds */
+      }
+      
+      @keyframes moveSnail {
+        0% {
+          transform: translateX(10px); /* Start from the far right */
+        }
+        100% {
+          transform: translateX(-2000px); /* Move to the far left, off the screen */
+        }
+      }
+      
+
+      .footer{
+        position: absolute;
+        top: 3900px;
+        margin-left: 10px;
+        height: 400px;
+        width: 1460px;
+        border: solid rgb(2, 1, 1) 4px;
+        
+        display: flex;
+        flex-direction: row;
+        border-radius: 8px;
+        
+    }
+    .footer1{
+    text-align: justify;
+        background-color: #262525;
+      width: 50%;
+      color: whitesmoke;
+    }
+    #destop1{
+        text-align: center;
+        font-weight: bolder;
+        font-size: 60px;
+    }
+    #name{
+        text-align: center;
+        font-size: 40px;
+        font-family:Georgia, Times, 'Times New Roman', serif;
+    }
+    #collage{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    
+    .footer2{
+        background-color: rgb(249, 248, 246);
+        width: 50%;
+    }
+    #Contact{
+        text-align: center;
+        font-size: 60px;
+        font-weight: bolder;
+        font-family:Georgia, Times, 'Times New Roman', serif;
+    }
+    #gmaillogo{
+        text-align: center;
+    font-size: 30px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    }
+    #instagram{
+        text-align: center;
+        font-size: 30px;
+        font-family:Georgia, Times, 'Times New Roman', serif;
+    }
+     
+    
+
+    .ladybug4{
+      position: absolute;
+      top: 100px;
+      left: 50px;
+      font-size: 50px;
+      animation: fly4 20s ease-in-out infinite;
+    }
+    
+    @keyframes fly4{
+      0% {
+        transform: translate(740px,120px) rotate(180deg);
+      }
+      20% {
+        transform: translate(640px,1750px) rotate(203deg); /* Moves up and to the right */
+      }
+      40% {
+        transform: translate(960px,2500px) rotate(-20deg); /* Moves down and slightly to the right */
+      }
+      60% {
+        transform: translate(90px,270px) rotate(-360deg); /* Moves higher up with rotation */
+      }
+      80% {
+        transform: translate(88px,3310px) rotate(-30deg); /* Moves down again */
+      }
+      100% {
+        transform: translate(310px, 612px) rotate(60deg); /* Returns to the same height but further */
+      }
+    }
+    
+  
+    .ladybug5{
+      position: absolute;
+      top: 100px;
+      left: 50px;
+      font-size: 50px;
+      animation: fly5 20s ease-in-out infinite;
+    }
+    
+    @keyframes fly5{
+      0% {
+        transform: translate(70px,510px) rotate(90deg);
+      }
+      20% {
+        transform: translate(60px,1750px) rotate(120deg); /* Moves up and to the right */
+      }
+      40% {
+        transform: translate(260px,1500px) rotate(-200deg); /* Moves down and slightly to the right */
+      }
+      60% {
+        transform: translate(960px,70px) rotate(130deg); /* Moves higher up with rotation */
+      }
+      80% {
+        transform: translate(8px,390px) rotate(-330deg); /* Moves down again */
+      }
+      100% {
+        transform: translate(90px, 1112px) rotate(-90deg); /* Returns to the same height but further */
+      }
+    }
+    
+  
+  
+    
+    .ladybug6{
+      position: absolute;
+      top: 100px;
+      left: 50px;
+      font-size: 50px;
+      animation: fly6 20s ease-in-out infinite;
+    }
+    
+    @keyframes fly6{
+      0% {
+        transform: translate(720px,1990px) rotate(0deg);
+      }
+      20% {
+        transform: translate(240px,1750px) rotate(320deg); /* Moves up and to the right */
+      }
+      40% {
+        transform: translate(960px,500px) rotate(-220deg); /* Moves down and slightly to the right */
+      }
+      60% {
+        transform: translate(960x,2170px) rotate(130deg); /* Moves higher up with rotation */
+      }
+      80% {
+        transform: translate(898px,3100px) rotate(-930deg); /* Moves down again */
+      }
+      100% {
+        transform: translate(99px, 1280px) rotate(60deg); /* Returns to the same height but further */
+      }
+    }
+    
+  
+    
+    .ladybug7{
+      position: absolute;
+      top: 100px;
+      left: 50px;
+      font-size: 50px;
+      animation: fly7 20s ease-in-out infinite;
+    }
+    
+    @keyframes fly7{
+      0% {
+        transform: translate(70px,1090px) rotate(220deg);
+      }
+      20% {
+        transform: translate(440px,2750px) rotate(20deg); /* Moves up and to the right */
+      }
+      40% {
+        transform: translate(960px,500px) rotate(-20deg); /* Moves down and slightly to the right */
+      }
+      60% {
+        transform: translate(96px,1220px) rotate(230deg); /* Moves higher up with rotation */
+      }
+      80% {
+        transform: translate(898px,310px) rotate(-30deg); /* Moves down again */
+      }
+      100% {
+        transform: translate(91px, 1234px) rotate(0deg); /* Returns to the same height but further */
+      }
+    }
+    
+    
+    .ladybug8{
+      position: absolute;
+      top: 100px;
+      left: 50px;
+      font-size: 50px;
+      animation: fly8 20s ease-in-out infinite;
+    }
+    
+    @keyframes fly8{
+      0% {
+        transform: translate(721px,1110px) rotate(0deg);
+      }
+      20% {
+        transform: translate(642px,175px) rotate(220deg); /* Moves up and to the right */
+      }
+      40% {
+        transform: translate(960px,500px) rotate(-220deg); /* Moves down and slightly to the right */
+      }
+      60% {
+        transform: translate(96px,702px) rotate(130deg); /* Moves higher up with rotation */
+      }
+      80% {
+        transform: translate(89px,1310px) rotate(-230deg); /* Moves down again */
+      }
+      100% {
+        transform: translate(90px, 2212px) rotate(0deg); /* Returns to the same height but further */
+      }
+    }
+    
+  
+    
+  
+    .ladybug9{
+      position: absolute;
+      top: 100px;
+      left: 50px;
+      font-size: 50px;
+      animation: fly9 20s ease-in-out infinite;
+    }
+    
+    @keyframes fly9{
+      0% {
+        transform: translate(72px,2310px) rotate(660deg);
+      }
+      20% {
+        transform: translate(91px,2750px) rotate(320deg); /* Moves up and to the right */
+      }
+      40% {
+        transform: translate(960px,2500px) rotate(-320deg); /* Moves down and slightly to the right */
+      }
+      60% {
+        transform: translate(980px,2270px) rotate(30deg); /* Moves higher up with rotation */
+      }
+      80% {
+        transform: translate(898px,310px) rotate(-350deg); /* Moves down again */
+      }
+      100% {
+        transform: translate(91px, 2312px) rotate(360deg); /* Returns to the same height but further */
+      }
+    }
+  
+  
+    
+    .ladybug10{
+      position: absolute;
+      top: 100px;
+      left: 50px;
+      font-size: 50px;
+      animation: fly10 20s ease-in-out infinite;
+    }
+    
+    @keyframes fly10{
+      0% {
+        transform: translate(620px,210px) rotate(0deg);
+      }
+      20% {
+        transform: translate(630px,1750px) rotate(320deg); /* Moves up and to the right */
+      }
+      40% {
+        transform: translate(961px,1500px) rotate(-520deg); /* Moves down and slightly to the right */
+      }
+      60% {
+        transform: translate(96px,270px) rotate(330deg); /* Moves higher up with rotation */
+      }
+      80% {
+        transform: translate(88px,2310px) rotate(-330deg); /* Moves down again */
+      }
+      100% {
+        transform: translate(510px, 2212px) rotate(90deg); /* Returns to the same height but further */
+      }
+    }
+    
+  
+    .ladybug11{
+      position: absolute;
+      top: 100px;
+      left: 50px;
+      font-size: 50px;
+      animation: fly11 20s ease-in-out infinite;
+    }
+    
+    @keyframes fly11{
+      0% {
+        transform: translate(620px,1022px) rotate(5deg);
+      }
+      20% {
+        transform: translate(610px,2750px) rotate(720deg); /* Moves up and to the right */
+      }
+      40% {
+        transform: translate(960px,1100px) rotate(-620deg); /* Moves down and slightly to the right */
+      }
+      60% {
+        transform: translate(960px,70px) rotate(30deg); /* Moves higher up with rotation */
+      }
+      80% {
+        transform: translate(858px,2310px) rotate(-30deg); /* Moves down again */
+      }
+      100% {
+        transform: translate(220px, 3112px) rotate(0deg); /* Returns to the same height but further */
+      }
+    }
+    
+    .ladybug12{
+      position: absolute;
+      top: 100px;
+      left: 50px;
+      font-size: 50px;
+      animation: fly12 20s ease-in-out infinite;
+    }
+    
+    @keyframes fly12{
+      0% {
+        transform: translate(70px,1210px) rotate(0deg);
+      }
+      20% {
+        transform: translate(640px,1750px) rotate(20deg); /* Moves up and to the right */
+      }
+      40% {
+        transform: translate(440px,1500px) rotate(-20deg); /* Moves down and slightly to the right */
+      }
+      60% {
+        transform: translate(360px,70px) rotate(30deg); /* Moves higher up with rotation */
+      }
+      80% {
+        transform: translate(20px,510px) rotate(-30deg); /* Moves down again */
+      }
+      100% {
+        transform: translate(91px, 1412px) rotate(0deg); /* Returns to the same height but further */
+      }
+    }
